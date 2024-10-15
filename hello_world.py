@@ -191,12 +191,12 @@ with col2:
 # Criando a sidebar
 st.sidebar.image("uff.png")
 st.sidebar.write("Este projeto foi desenvolvido por (nossos nomes aqui).")
-pdf_file = "meu_relatorio.pdf"
-with st.sidebar:
-    with open(pdf_file, "meu_relatorio") as pdf:
-        st.download_button(
-            label="Download: relatorio_completo.pdf",
-            data=pdf.read(),
-            file_name="relatorio_completo.pdf",
-            mime="application/pdf"
-    )
+#pdf_file = "meu_relatorio.pdf"
+#with st.sidebar:
+    #with open(pdf_file, "meu_relatorio") as pdf:
+        #st.download_button(
+            #label="Download: relatorio_completo.pdf",
+            #data=pdf.read(),
+            #file_name="relatorio_completo.pdf",
+            #mime="application/pdf"
+   # )
