@@ -191,7 +191,7 @@ with col2:
 # Criando a sidebar
 st.sidebar.image("uff.png")
 st.sidebar.write("Este projeto foi desenvolvido por (nossos nomes aqui).")
-pdf_file = meu_relatorio.pdf"
+pdf_file = "meu_relatorio.pdf"
 with st.sidebar:
     with open(pdf_file, "meu_relatorio") as pdf:
         st.download_button(
